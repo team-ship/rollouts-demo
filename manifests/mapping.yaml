@@ -1,0 +1,9 @@
+apiVersion: getambassador.io/v2
+kind:  Mapping
+metadata:
+  name:  rollout-demo-mapping
+spec:
+  resolver: endpoint
+  prefix: /rollout-demo
+  rewrite: /echo
+  service: rollout-demo:80
