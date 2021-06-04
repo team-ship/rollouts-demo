@@ -4,6 +4,18 @@ metadata:
   labels:
     app: rollout-demo
   name: rollout-demo
+  annotations:
+    a8r.io/description: Demo service to try the rollout feature
+    a8r.io/owner: Ambassador Labs
+    a8r.io/documentation: https://www.getambassador.io/docs/cloud/latest/service-catalog/howtos/rollout/
+    a8r.io/repository: https://github.com/datawire/rollouts-demo
+    a8r.io/support: https://a8r.io/Slack
+    a8r.io/rollouts.scm.path: manifests
+    a8r.io/rollouts.scm.branch: main
+    a8r.io/rollouts.image-repo.type: dockerhub
+    a8r.io/rollouts.image-repo.name: hashicorp/http-echo
+    a8r.io/rollouts.deployment: rollout-demo
+    a8r.io/rollouts.mappings: rollout-demo-mapping
 spec:
   type: ClusterIP
   ports:
