@@ -18,6 +18,7 @@ metadata:
     a8r.io/rollouts.mappings: rollout-demo-mapping
 spec:
   type: ClusterIP
+  sessionAffinity: None
   ports:
   - name: http
     port: 80
@@ -25,4 +26,3 @@ spec:
     targetPort: 8080
   selector:
     app: rollout-demo
-  sessionAffinity: None
