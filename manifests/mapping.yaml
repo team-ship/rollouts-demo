@@ -2,6 +2,7 @@ apiVersion: getambassador.io/v2
 kind:  Mapping
 metadata:
   name:  rollout-demo-mapping
+  namespace: my-app
 spec:
   resolver: endpoint
   prefix: /rollout-demo
