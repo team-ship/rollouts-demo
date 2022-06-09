@@ -1,5 +1,5 @@
 k8s_config:
 - manifest_path: /manifests
   cluster_info:
-    cluster_id: 5301ee40-f5c5-598f-914b-a5a7964bc989
-    cluster_name: Guillaume Veschambre's cluster
+    cluster_id: 40236fdb-2104-5da8-8584-a73f3c453d36
+    cluster_name: team-ship-1

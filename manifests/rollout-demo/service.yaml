@@ -9,7 +9,7 @@ metadata:
     a8r.io/description: Demo service to try the rollout feature
     a8r.io/owner: Ambassador Labs
     a8r.io/documentation: https://www.getambassador.io/docs/cloud/latest/service-catalog/howtos/rollout/
-    a8r.io/repository: git@github.com:shepz/rollouts-demo.git
+    a8r.io/repository: git@github.com:team-ship/rollouts-demo.git
     a8r.io/support: https://a8r.io/Slack
     a8r.io/rollouts.scm.path: manifests/rollout-demo
     a8r.io/rollouts.scm.branch: main
